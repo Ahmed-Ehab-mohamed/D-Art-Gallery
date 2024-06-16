@@ -1,0 +1,11 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Other configurations... -->
+    <application>
+        <!-- Other configurations... -->
+        <uses-library
+            android:name="com.google.firebase.auth"
+            android:required="false"
+            tools:overrideLibrary="com.google.firebase.auth" />
+    </application>
+</manifest>

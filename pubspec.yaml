@@ -1,0 +1,63 @@
+name: d_art_gallery
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=2.17.0 <3.0.0' # Updated to a more recent Dart SDK version
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.1
+  firebase_auth: ^4.19.5
+  firebase_database: ^10.5.5
+  google_sign_in: ^6.2.1
+  sign_in_button: ^3.2.0
+  flutter_facebook_auth: ^7.0.0
+  image_picker: ^1.1.1
+  firebase_storage: ^11.2.2 
+  firebase_core: ^2.31.1
+  cloud_functions: ^4.7.5
+  provider: ^6.1.2
+  riverpod: ^2.5.1
+  flutter_riverpod: ^2.5.1
+  path_provider: ^2.1.3
+  path: ^1.9.0
+  sqflite: ^2.3.3+1
+  uuid: ^4.4.0
+  cloud_firestore: ^4.17.5
+  geolocator: ^12.0.0
+  permission_handler: ^11.3.1
+  hooks_riverpod: ^2.5.1
+  flutter_svg: ^2.0.10+1
+  dio: ^5.4.3+1
+  flutter_bloc: ^8.1.5
+  flutter_stripe: ^10.1.1
+  url_launcher: ^6.3.0
+  location: ^6.0.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/D art Gallery 1.png
+    - assets/images/Next page (1).png
+    - assets/images/Auction.png
+    - assets/images/Purchase Order.png
+    - assets/images/unsplash_5TK1F5VfdIk.png 
+    - assets/images/unsplash_6c43FgRt0Dw (1).png
+    - assets/images/unsplash_6c43FgRt0Dw.png
+    - assets/images/Curved Arrow Down.png 
+    - assets/images/artbook.png
+    - assets/images/Purchase Order.png
+    - assets/images/auction.png
+    - assets/images/Artist.png
+    - assets/images/Icon Artwork.png
+    - assets/images/heart.png  
+    - assets/images/Order History.png
